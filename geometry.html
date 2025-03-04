@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Геометрия</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #2575fc;
+            border-bottom: 2px solid #2575fc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        .section p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+        .section ul {
+            list-style-type: disc;
+            margin: 10px 0 10px 20px;
+        }
+        .section ul li {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .nav-links {
+            margin-bottom: 20px;
+        }
+        .nav-links a {
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Геометрия</h1>
+        <p>Основные теоремы и формулы</p>
+    </header>
+
+    <div class="container">
+        <div class="nav-links">
+            <a href="#pythagoras">Теорема Пифагора</a>
+            <a href="#areas">Площади фигур</a>
+        </div>
+
+        <div class="section" id="pythagoras">
+            <h2>Теорема Пифагора</h2>
+            <p>В прямоугольном треугольнике: <span class="formula">a² + b² = c²</span>, где <span class="formula">c</span> — гипотенуза.</p>
+        </div>
+
+        <div class="section" id="areas">
+            <h2>Площади фигур</h2>
+            <p><strong>Треугольник:</strong> <span class="formula">S = ½ · a · h</span>.</p>
+            <p><strong>Круг:</strong> <span class="formula">S = πr²</span>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2023 Математические заметки. Все права защищены.</p>
+    </footer>
+</body>
+</html>
